@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="ele">
+    <button onclick="handle()">get element</button>
+
+    <script>
+let data = [50,60,80,90,100];
+
+// for(let i =0 ;i<data.length;i++){
+
+// document.write(data[i]  + '<br>');
+// }
+
+// document.write(data[2])
+let newEl = 70;
+let position = 2;
+for(let i=data.length-1; i>0; i-- ){
+    console.log(data[i])
+    if(i >= position){
+
+        console.log(data[i+1] )
+    }
+}
+
+
+    </script>
+    
+</body>
+</html>
