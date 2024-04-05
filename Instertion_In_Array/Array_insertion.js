@@ -12,3 +12,9 @@ let data = [60, 30, 10, 67, 40];
 
         }
         console.log(data)
+
+
+
+//with js method
+ data.splice(2,0,4);
+console.log(data);  //   [60, 30, 4, 10, 67, 40];
