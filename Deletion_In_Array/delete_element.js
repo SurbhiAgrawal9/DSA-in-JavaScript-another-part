@@ -6,3 +6,7 @@ for(let i=position;i<=data.length-1;i++){
 }
 data.length =  data.length-1
 console.log(data)
+
+
+//by default function 
+console.log(data.splice(2,1));  //60
